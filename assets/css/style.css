@@ -561,8 +561,8 @@ p {
 
 .navbar-nav .nav-item a {
   font-size: 16px;
-  font-weight: 400;
-  color: #fff;
+  font-weight: 900;
+  color: #1b1b1b;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   padding: 10px 0;
@@ -621,6 +621,12 @@ p {
   position: relative;
   z-index: 5;
   background-position: top center;
+}
+
+.bottom-hero {
+  position: relative;
+  z-index: 5;
+  background-position: bottom center;
 }
 
 #particles-1 {
@@ -765,7 +771,6 @@ p {
   SERVICES css 
 ===========================*/
 .single-services {
-  background-color: #1b1b1b;
   -webkit-box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
   box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
   -webkit-transition: all 0.3s ease-out 0s;
@@ -2137,10 +2142,20 @@ p {
 }
 
 .font-bold {
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.bg-tokenomic {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.l-height {
+ line-height: 2.5rem;
 }
