@@ -471,11 +471,13 @@ p {
 
 .sticky .navbar {
   padding: 10px 0;
+  color: #fff;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .sticky .navbar {
     padding: 15px 0;
+    color: #fff;
   }
 }
 
@@ -539,12 +541,14 @@ p {
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .navbar-nav {
     padding: 20px 30px;
+    color: #fff;
   }
 }
 
 .navbar-nav .nav-item {
   margin-right: 45px;
   position: relative;
+  color: #fff;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -562,7 +566,7 @@ p {
 .navbar-nav .nav-item a {
   font-size: 16px;
   font-weight: 900;
-  color: #1b1b1b;
+  color: #2E2E2E;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   padding: 10px 0;
@@ -574,7 +578,7 @@ p {
   .navbar-nav .nav-item a {
     display: inline-block;
     padding: 8px 0;
-    color: #2E2E2E;
+    color: #fff;
   }
 }
 
