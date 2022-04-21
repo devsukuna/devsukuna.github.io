@@ -1385,13 +1385,13 @@ p {
 
 /*===== BACK TO TOP =====*/
 .back-to-top {
-  font-size: 20px;
+  font-size: 50px;
   color: #fff;
   position: fixed;
   right: 20px;
   bottom: 20px;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   border-radius: 5px;
   background: -webkit-gradient(linear, left top, right top, from(#fe8464), color-stop(50%, #fe6e9a), to(#fe8464));
   background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
@@ -2158,4 +2158,16 @@ p {
 
 .l-height {
  line-height: 2.5rem;
+}
+
+.text-banner-black {
+  text-shadow: 1px 1px #1b1b1b;
+}
+
+.text-banner-white {
+  text-shadow: 1px 1px rgb(211, 208, 208);
+}
+
+.logo-size {
+  width: 70px;
 }
