@@ -536,9 +536,6 @@ p {
     box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
     padding: 0px;
   }
-  .logo-size {
-    width: 150px;
-  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -569,7 +566,7 @@ p {
 .navbar-nav .nav-item a {
   font-size: 16px;
   font-weight: 900;
-  color: #fff;
+  color: #1e1e1e;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   padding: 10px 0;
@@ -796,6 +793,8 @@ p {
 .single-services .services-icon {
   display: inline-block;
   position: relative;
+  width: 65%;
+  height: 65%;
 }
 
 .single-services .services-icon img {
@@ -821,10 +820,11 @@ p {
   color: #1b1b1b;
 }
 
-.single-services .services-content .services-title a {
+.single-services .services-content .services-title span {
   font-size: 26px;
   font-weight: 700;
   color: #fff;
+  text-decoration: none;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
@@ -2176,5 +2176,10 @@ p {
 }
 
 .logo-size {
-  width: 150px;
+  width: 250px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .logo-size {
+    width: 150px;
+  }
 }
