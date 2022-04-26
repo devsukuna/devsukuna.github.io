@@ -23,9 +23,13 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://use.fontawesome.com/your-embed-code.js"></script>
-    <audio controls autoplay loop style="display: none;">
-      <source src="./assets/bg_music.mp3">
+    <audio style="display: none;" controls autoplay loop">
+      <source src="./assets/bg_music.mp3" type="audio/mpeg">
     </audio>
+    <script>
+      document.querySelector("audio").volume = 0.08
+      document.addEventListener("scroll", document.querySelector("audio").play());
+    </script>
   </head>
 
   <body style="background-image: url(./assets/images/banner/Background.png); background-repeat: no-repeat; background-size: cover;";  color: #fff">
