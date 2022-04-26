@@ -27,8 +27,9 @@
       <source src="./assets/bg_music.mp3" type="audio/mpeg">
     </audio>
     <script>
-      document.querySelector("audio").volume = 0.08
-      document.addEventListener("scroll", document.querySelector("audio").play());
+      let sound = document.querySelector("audio")
+      sound.volume = 0.08
+      document.addEventListener("scroll", sound.play());
     </script>
   </head>
 
