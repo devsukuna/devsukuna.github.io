@@ -29,7 +29,12 @@
     <script>
       let sound = document.querySelector("audio")
       sound.volume = 0.08
-      document.addEventListener("scroll", sound.play());
+      sound.play().then(_ => {
+        console.log("ok")
+      }).catch( err => {
+          console.log(err)
+        }
+      )
     </script>
   </head>
 
